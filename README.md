@@ -31,3 +31,17 @@
 ####   a. server-context.xml
 ####   b. root-context.xml
 ######      -mybatis
+#####         1) connection -properties 파일사용 
+#####         2) connection, xml
+#####         3) 최종 Mapping 
+#####        -fileUpload 
+#####            CommonsMultipartResolver
+#####        -properties 파일 위치 설정 
+#####        propertyPlaceholderConfigurer
+
+
+## 5)  Mybatis 설정 
+####      - file들의 위치 
+####        src/main/resources 하위에 myBatis 디렉터리 생성
+####        config   :  mybatis 설정 파일들 
+####        mappers  :  mybatis sql 파일들 
